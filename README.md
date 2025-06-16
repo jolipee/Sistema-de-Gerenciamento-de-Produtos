@@ -1,20 +1,21 @@
-# Sistema-de-Gerenciamento-de-Produtos
+# Sistema de Gerenciamento de Produtos
 
-👥 Integrantes do Grupo
-Nome dos Alunos/Matrícula
+## 👥 Integrantes do Grupo
 
-Louie Nery Silva -UC24101358
-João Filipe Alves de Albuquerque -UC24102128
-Mateus Henrique Lacerda Lopes -UC24102584
-Guilherme Souza Rocha -UC24101057
+| Nome do Aluno                  | Matrícula    |
+|---------------------------------|-------------|
+| Louie Nery Silva               | UC24101358  |
+| João Filipe Alves de Albuquerque | UC24102128  |
+| Mateus Henrique Lacerda Lopes  | UC24102584  |
+| Guilherme Souza Rocha          | UC24101057  |
 
+## 🚀 Como Executar a Aplicação
 
-🚀 Como Executar a Aplicação
-🔧 Backend (NestJS)
-Navegue até a pasta do backend:
+### 🔧 Backend (NestJS)
 
-bash
-cd nest_produtos
+1. Navegue até a pasta do backend:
+ ``` bash
+   cd nest_produtos
 Instale as dependências:
 
 bash
@@ -32,11 +33,12 @@ Inicie o servidor:
 bash
 npm run start:dev
 O servidor estará disponível em: http://localhost:3000
+```
 
-🖥️ Frontend (React)
-Navegue até a pasta do frontend:
+### 🖥️ Frontend (React)
+1. Navegue até a pasta do frontend:
 
-bash
+  ```bash
 cd frontend
 Instale as dependências:
 
@@ -47,9 +49,10 @@ Inicie a aplicação:
 bash
 npm start
 A aplicação estará disponível em: http://localhost:3001
+```
 
-🌐 Endpoints da API
-GET /produtos - Lista todos os produtos
+### 🌐 Endpoints da API
+ ```GET /produtos - Lista todos os produtos
 
 POST /produtos - Cria um novo produto
 
@@ -60,10 +63,12 @@ PATCH /produtos/:id - Atualiza um produto
 DELETE /produtos/:id - Remove um produto
 
 POST /produtos/:id/upload - Faz upload de imagem para um produto
+ ```
 
 
 
-🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
+ ```
 Backend:
 
 NestJS
@@ -71,7 +76,7 @@ NestJS
 TypeORM
 
 SQLite
-
+ 
 
 Frontend:
 
@@ -80,8 +85,8 @@ React (TypeScript)
 Axios (chamadas HTTP)
 
 Material-UI (componentes)
-
-📌 Observações Importantes
+ ```
+### 📌 Observações Importantes
 Certifique-se de ter o Node.js instalado (versão 16 ou superior)
 
 O projeto utiliza SQLite para desenvolvimento, mas pode ser configurado para outros bancos
