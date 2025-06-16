@@ -2,9 +2,11 @@
 
 👥 Integrantes do Grupo
 Nome dos Alunos/Matrícula
-[SEU NOME]	[SUA MATRÍCULA]
 
-
+Louie Nery Silva -UC24101358
+João Filipe Alves de Albuquerque -UC24102128
+Mateus Henrique Lacerda Lopes -UC24102584
+Guilherme Souza Rocha -UC24101057
 
 
 🚀 Como Executar a Aplicação
@@ -59,9 +61,7 @@ DELETE /produtos/:id - Remove um produto
 
 POST /produtos/:id/upload - Faz upload de imagem para um produto
 
-📚 Documentação da API
-Acesse a documentação Swagger em:
-http://localhost:3000/api (quando o servidor estiver rodando)
+
 
 🛠️ Tecnologias Utilizadas
 Backend:
@@ -72,7 +72,6 @@ TypeORM
 
 SQLite
 
-Swagger (documentação)
 
 Frontend:
 
