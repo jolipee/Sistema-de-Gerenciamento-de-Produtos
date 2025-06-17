@@ -1,0 +1,5 @@
+
+/nest_produtos/node_modules
+/nest_produtos/dist
+/nest_produtos/db.sqlite
+/nest_produtos/uploads
